@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { useEffect, useState } from 'react'
-import { addTodo, asyncDeleteTodo, fetchTodos, completeTodo } from '../store/todoSlice/todosSlice'
+import { addTodo, asyncDeleteTodo, fetchTodos, completeTodo } from '../store/todoSlice/TodosSlice'
 
 const TodoList = () => {
     const { items, loading, error } = useSelector(state => state.todos)
